@@ -46,5 +46,5 @@ class Yadps(commands.Bot):
                     f"Command -> {interaction.data.name} | Invoked from -> {interaction.channel_id} | By user"
                     f"-> {interaction.author} | Error -> {interaction.author} missing roles")
             await interaction.send(
-                f"{interaction.author.mention}, you don't have the required permissions for this command.")
+                f"{interaction.author.mention}, you don't cant do shit cuz u dont have required permissions for this command.")
 
